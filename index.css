@@ -1,0 +1,82 @@
+body {
+	background-color: black;
+	color: white;
+}
+
+img {
+	border: 10px solid white;
+	margin-top: 50px;
+	height: 250px;
+}
+
+p, h1, h2, h3, ul, input, form, #newalbum {
+	text-align: center;
+}
+
+hr {
+	margin: 20px;
+	border: 1px solid #FF3300;
+	clear: both;
+}
+
+ul {
+	list-style-type: none;
+	padding:0;
+	margin:0;
+}
+
+ul li {
+	margin: 15px;
+	font-size: 20px;
+}
+
+ul button {
+	margin-left: 15px;
+}
+
+.center, .login {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.title {
+	float: left;
+	margin-left: 20px;
+	margin-top: 0px;
+	border: none;
+	height: 90px;
+}
+
+.title-blurb {
+	position: absolute;
+	top: 70px;
+	left: 284px;
+	font-size: medium;
+}
+
+.login-status {
+	float: right;
+	margin-right: 20px;
+}
+
+.p-right {
+	text-align: right;
+	margin-top: 5px;
+	margin-bottom: 7px;
+}
+
+.back {
+	margin-top: 30px;
+}
+
+a, h4 {
+	color: #FF3300;
+}
+
+#error {
+	display: none;
+}
+
+a:visited {
+	color: #CC0000;
+}
